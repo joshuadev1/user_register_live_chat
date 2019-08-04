@@ -1,9 +1,9 @@
 <?php 
 
 $servername = "localhost";
-$username = "root";
-$password = "159753852cafarc";
-$dbname = "prospect_erp";
+$username = "username";
+$password = "password";
+$dbname = "dbname";
 //db connection
 
 $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
